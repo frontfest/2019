@@ -29,6 +29,9 @@ a:visited {
   color: #F5B63F;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 h1 {
   font-family: 'JosefinSans';
   font-weight: bold;
@@ -36,6 +39,12 @@ h1 {
 }
 p {
   margin: 6px 0;
+}
+
+/* Helpers */
+
+.half-width {
+  width: 50%;
 }
 
 /* Layout */
@@ -47,7 +56,35 @@ p {
 .main-wrapper {
   margin: 60px 25px;
 }
+.main-intro {
+  position: relative;
+}
+.main-intro-pictures {
+  display: flex;
+  flex-wrap: wrap
+}
+.main-intro-logo {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.main-intro-logo div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.15);
+}
+.main-intro-logo div img {
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+}
 .aside {
+  z-index: 1;
   background-color: #222;
   color: #dedede;
   font-family: 'JosefinSans';
@@ -57,6 +94,16 @@ p {
   display: flex;
   flex-direction: column;
   margin: 25px;
+}
+.alert {
+  background-color: #F5B63F;
+  color: #222;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.alert a {
+  color: #222;
+  text-decoration: underline;
 }
 
 /* Elements */
