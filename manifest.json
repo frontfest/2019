@@ -4,16 +4,16 @@
   "description": "La conferencia para toda la comunidad front-end",
   "icons": [{
     "src": "images/frontfest-logo.svg",
-    "sizes": "48x48 72x72 96x96 144x144 168x168 192x192",
+    "sizes": "48x48 72x72 96x96 144x144 168x168 192x192 256x256",
     "type": "image/svg+xml"
   }, {
-    "src": "images/logo-280x280.png",
-    "sizes": "280x280",
+    "src": "images/frontfest-logo-circle.png",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#F5B63F",
-  "background_color": "#222"
+  "background_color": "#FFFFFF"
 }
