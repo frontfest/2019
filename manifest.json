@@ -1,0 +1,15 @@
+{
+  "short_name": "FrontFest",
+  "name": "FrontFest '19",
+  "description": "La conferencia para toda la comunidad front-end",
+  "icons": [{
+    "src": "images/frontfest-logo.svg",
+    "sizes": "48x48 72x72 96x96 144x144 168x168 192x192",
+    "type": "image/svg+xml"
+  }],
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#F5B63F",
+  "background_color": "#222"
+}
