@@ -238,4 +238,16 @@
 
   </div>
 </body>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('js/service-worker.js')
+      .then(function(reg) {
+        console.log("Service worker initialized.");
+      }).catch(function(err) {
+        console.log("Service worker not initialized: ", err)
+      });
+  }
+</script>
+
 </html>
