@@ -3,11 +3,11 @@
   "name": "FrontFest '19",
   "description": "La conferencia para toda la comunidad front-end",
   "icons": [{
-    "src": "images/frontfest-logo.svg",
-    "sizes": "48x48 72x72 96x96 144x144 168x168 192x192 256x256",
-    "type": "image/svg+xml"
+    "src": "images/frontfest-logo-circle-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
   }, {
-    "src": "images/frontfest-logo-circle.png",
+    "src": "images/frontfest-logo-circle-512x512.png",
     "sizes": "512x512",
     "type": "image/png"
   }],

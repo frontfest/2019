@@ -1,5 +1,5 @@
 <svg height="31.579865mm" viewBox="0 0 128 128" width="31.579865mm" xmlns="http://www.w3.org/2000/svg">
-  <circle fill="#222" cx="64" cy="64" r="64"/>
+  <circle fill="#fff" cx="64" cy="64" r="64"/>
   <g fill-rule="evenodd" transform="translate(8,8) matrix(.35204081 0 0 .35204081 -1056.38248 -1601.851799)">
     <path d="m3199.2879 4634.5954 35.2735 35.3866-113.5406 114.3602-36.2312-36.2694" fill="#fc0"/>
     <path d="m3125.599 4661.1603-30.5368-30.5368-94.3235 94.559 60.9786-.1312z" fill="#ff3b3b"/>
