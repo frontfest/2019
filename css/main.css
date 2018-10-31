@@ -1,18 +1,22 @@
 @font-face {
   font-family: 'JosefinSans';
+  font-display: swap;
   src: url('../fonts/JosefinSans-Regular.woff2');
 }
 @font-face {
   font-family: 'JosefinSans';
+  font-display: swap;
   src: url('../fonts/JosefinSans-Bold.woff2');
   font-weight: bold;
 }
 @font-face {
   font-family: 'NunitoSans';
+  font-display: swap;
   src: url('../fonts/NunitoSans-Regular.woff2');
 }
 @font-face {
   font-family: 'NunitoSans';
+  font-display: swap;
   src: url('../fonts/NunitoSans-Bold.woff2');
   font-weight: bold;
 }
@@ -21,7 +25,7 @@
 
 body {
   margin: 0;
-  font-family: 'NunitoSans';
+  font-family: 'NunitoSans', Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 a,
@@ -33,7 +37,7 @@ a:hover {
   text-decoration: underline;
 }
 h1 {
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 32px;
 }
@@ -151,7 +155,7 @@ tbody tr:nth-child(even) {
   z-index: 1;
   background-color: #222;
   color: #dedede;
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
   box-shadow: 0 0 6px #222;
 }
 .aside-wrapper {
@@ -204,7 +208,7 @@ tbody tr:nth-child(even) {
   border-radius: 9px;
   padding: 15px 25px;
   font-size: 20px;
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 .main-arrow {
@@ -230,7 +234,7 @@ tbody tr:nth-child(even) {
 }
 .aside-hashtag {
   color: #F5B63F;
-  font-family: 'NunitoSans';
+  font-family: 'NunitoSans', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
