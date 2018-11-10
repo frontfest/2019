@@ -249,23 +249,31 @@ tbody tr:nth-child(even) {
   justify-content: center;
   margin-bottom: 20px;
   width: 100%;
+  max-width: 360px;
 }
 .speaker-wrapper {
   display: flex;
+  flex-direction: row;
   position: relative;
   width: 100%;
-  max-width: 360px;
+}
+.speaker img {
+  flex-grow: 1;
+  display: flex;
+}
+.speaker-img img {
+  width: 100%;
 }
 .speaker-desc {
   display: flex;
   flex-direction: column;
   background-color: #222;
   color: #dedede;
-  width: 50px;
-  padding: 5px;
+  flex-basis: 60px;
+  padding: 10px 0;
 }
-.speaker-desc a {
-  display: flex;
+.speaker-desc img {
+  margin: 0 5px;
 }
 .speaker-name {
   font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
@@ -285,9 +293,9 @@ tbody tr:nth-child(even) {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .speaker {
-    width: 31.5%;
+    width: 31%;
   }
 }
 
