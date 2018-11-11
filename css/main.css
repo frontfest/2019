@@ -112,7 +112,7 @@ tbody tr:nth-child(even) {
   flex-direction: column;
 }
 .main-wrapper {
-  margin: 60px 20px;
+  margin: 60px 25px;
 }
 .main-wrapper a,
 .main-wrapper a:visited {
@@ -247,9 +247,9 @@ tbody tr:nth-child(even) {
 .speaker {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 100%;
-  max-width: 360px;
+  max-width: 320px;
 }
 .speaker-wrapper {
   display: flex;
