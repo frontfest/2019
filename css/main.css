@@ -39,7 +39,10 @@ a:hover {
 h1 {
   font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.2em;
 }
 p {
   margin: 6px 0;
@@ -271,7 +274,6 @@ tbody tr:nth-child(even) {
   flex-basis: 60px;
 }
 .speaker-name {
-  font-family: 'JosefinSans', Arial, Helvetica, sans-serif;
   font-weight: bold;
   position: absolute;
   bottom: 20px;
@@ -292,6 +294,58 @@ tbody tr:nth-child(even) {
   .speaker {
     width: 30%;
   }
+}
+
+/* Sponsors */
+
+.sponsor-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sponsor-platinum {
+  width: 320px;
+  height: 160px;
+  border: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-platinum img {
+  width: 280px;
+}
+.sponsor-gold {
+  width: 240px;
+  height: 120px;
+  border: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-gold img {
+  width: 180px;
+}
+.sponsor-silver {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px 10px 0;
+}
+.sponsor-silver img {
+  width: 150px;
+}
+.sponsor-inkind {
+  width: 160px;
+  height: 80px;
+  border: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsor-inkind img {
+  width: 120px;
 }
 
 
