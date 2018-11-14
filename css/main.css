@@ -100,6 +100,10 @@ tbody tr:nth-child(even) {
   background-color: rgba(240,240,240,0.25);
 }
 
+hr {
+  border: 2px solid #222;
+}
+
 .overflow-x {
   overflow-x: auto;
 }
@@ -131,7 +135,7 @@ tbody tr:nth-child(even) {
 .section a,
 .section a:visited {
   text-decoration: underline;
-  color: rgb(177, 120, 15);
+  color: #b1780f;
 }
 .main-intro {
   position: relative;
@@ -321,7 +325,7 @@ tbody tr:nth-child(even) {
 .ticket-wrapper {
   display: flex;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
   margin: 12px 0;
 }
 .ticket {
