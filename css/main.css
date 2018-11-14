@@ -337,6 +337,7 @@ hr {
 }
 .ticket-title {
   display: flex;
+  align-items: center;
 }
 .ticket-title img {
   margin-right: 16px;
