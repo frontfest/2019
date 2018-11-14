@@ -103,20 +103,20 @@ tbody tr:nth-child(even) {
 .overflow-x {
   overflow-x: auto;
 }
+.bullet {
+  padding: 0 8px;
+}
 
 .list-founders {
+  list-style-position: inside;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
 }
 .list-founders li {
+  list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 22px;
-}
-.list-founders li:first-child {
-  list-style-type: none;
-  margin-left: 0;
 }
 
 /* Layout */
