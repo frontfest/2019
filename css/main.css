@@ -224,7 +224,7 @@ hr {
   background-color: #F5B63F;
   color: #222;
   text-decoration: none;
-  padding: 10px 16px;
+  padding: 8px 12px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -261,7 +261,7 @@ hr {
 
 /* Speakers */
 
-.speakers {
+.speaker-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -271,7 +271,7 @@ hr {
   justify-content: center;
   margin-bottom: 40px;
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
 }
 .speaker-wrapper {
   display: flex;
@@ -279,28 +279,45 @@ hr {
   position: relative;
   width: 100%;
 }
-.speaker img {
-  flex-grow: 1;
-  display: flex;
-}
 .speaker-img img {
   width: 100%;
 }
-.speaker-desc {
+.speaker-sn {
   display: flex;
   flex-direction: column;
   color: #dedede;
-  flex-basis: 60px;
+  flex-basis: 50px;
+}
+.speaker-sn img {
+  display: flex;
+}
+.speaker-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  margin-left: 50px;
+}
+.speaker-data > div {
+  display: flex;
+  justify-content: flex-end;
 }
 .speaker-name {
   font-weight: bold;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 16px;
-  font-size: 22px;
+  padding: 8px 12px;
+  font-size: 20px;
   color: #222;
   background-color: #F5B63F;
+}
+.speaker-desc {
+  padding: 8px 12px;
+  font-size: 12px;
+  background-color: #222;
+  color: #dedede;
+  font-weight: bold;
+  text-align: right;
 }
 
 @media (min-width: 900px) {
