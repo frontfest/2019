@@ -163,7 +163,7 @@ hr {
 .main-intro-logo img {
   position: absolute;
   bottom: -40px;
-  right: 60px;
+  right: 20px;
   padding: 15px;
   width: 80px;
   border-radius: 50%;
@@ -192,10 +192,11 @@ hr {
   color: #222;
   text-decoration: underline;
 }
-@media (min-width: 1100px) {
+@media (min-width: 768px) {
   .main-intro-logo img {
     width: 120px;
     padding: 20px;
+    right: 60px;
   }
 }
 
