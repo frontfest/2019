@@ -102,6 +102,7 @@ tbody tr:nth-child(even) {
 
 hr {
   border: 2px solid #222;
+  margin: 0;
 }
 
 .overflow-x {
@@ -109,6 +110,9 @@ hr {
 }
 .bullet {
   padding: 0 8px;
+}
+.bg-dark {
+  background: rgb(245, 182, 63, 0.5);
 }
 
 .list-founders {
@@ -130,7 +134,7 @@ hr {
   flex-direction: column;
 }
 .section {
-  margin: 60px 25px;
+  padding: 60px 25px;
 }
 .section a,
 .section a:visited {
@@ -150,24 +154,21 @@ hr {
   height: auto;
 }
 .main-intro-logo {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
-}
-.main-intro-logo div {
-  width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255,255,255,0.1);
 }
-.main-intro-logo div img {
+.main-intro-logo img {
+  position: absolute;
+  bottom: -40px;
+  right: 60px;
+  padding: 15px;
+  width: 80px;
   border-radius: 50%;
   background-color: white;
-  padding: 20px;
+  box-shadow: 0 0 6px #222;
 }
 .aside {
   z-index: 1;
@@ -190,6 +191,12 @@ hr {
 .alert a {
   color: #222;
   text-decoration: underline;
+}
+@media (min-width: 1100px) {
+  .main-intro-logo img {
+    width: 120px;
+    padding: 20px;
+  }
 }
 
 /* Elements */
@@ -229,7 +236,8 @@ hr {
   font-weight: bold;
 }
 .main .btn.disabled {
-  opacity: 0.75;
+  background: transparent;
+  border: 1px solid #222;
   cursor: not-allowed;
 }
 .main-arrow {
@@ -340,13 +348,17 @@ hr {
   justify-content: space-between;
 }
 .ticket-wrapper {
+  background-color: #fff;
   display: flex;
   width: 100%;
-  border: 1px solid #999;
   margin: 12px 0;
 }
+.ticket-wrapper.inactive {
+  opacity: 0.4;
+}
 .ticket-wrapper.active {
-  border: 2px solid #555;
+  background-color: #222;
+  color: #dedede;
 }
 .ticket {
   margin: 20px;
@@ -363,6 +375,11 @@ hr {
   margin-right: 16px;
   width: 40px;
 }
+.ticket-list {
+  font-size: 14px;
+  list-style: inside;
+  padding-left: 10px;
+}
 .ticket-footer {
   display: flex;
   justify-content: space-between;
@@ -375,6 +392,9 @@ hr {
 }
 
 @media (min-width: 1100px) {
+  .main-intro-pictures img {
+    width: 25%;
+  }
   .ticket-wrapper {
     width: 48%;
   }
@@ -475,7 +495,7 @@ hr {
     overflow-y: scroll;
   }
   .section {
-    margin: 60px;
+    padding: 60px;
   }
   .aside-wrapper {
     position: relative;
