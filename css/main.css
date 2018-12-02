@@ -298,14 +298,21 @@ hr {
 }
 .section a,
 .section a:visited {
+  text-decoration: none;
   color: #bd7b00;
+  border-bottom: 2px solid rgba(189, 123, 0, 0.3);
 }
 .section a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid rgba(189, 123, 0, 0.8);
 }
 @media (min-width: 768px) {
   .section {
     padding: 60px;
+  }
+}
+@media (min-width: 1100px) {
+  .section {
+    padding: 60px 80px;
   }
 }
 
@@ -350,6 +357,9 @@ hr {
 @media (min-width: 1100px) {
   .intro-pictures img {
     width: 25%;
+  }
+  .intro-logo img {
+    right: 80px;
   }
 }
 
