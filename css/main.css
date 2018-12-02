@@ -376,6 +376,7 @@ hr {
   margin-bottom: 40px;
   width: 100%;
   max-width: 280px;
+  background: #efefef;
 }
 .speaker-wrapper {
   display: flex;
@@ -383,17 +384,31 @@ hr {
   position: relative;
   width: 100%;
 }
+.speaker-img {
+  width: 85%;
+}
 .speaker-img img {
+  filter: grayscale(90%);
   width: 100%;
+  transition: 0.2s;
+  height: 100%;
+}
+.speaker:hover .speaker-img img {
+  filter: none;
 }
 .speaker-sn {
   display: flex;
   flex-direction: column;
   color: #dedede;
-  flex-basis: 50px;
+  width: 15%;
+}
+.speaker-sn a,
+.speaker-sn a:hover {
+  border: none;
 }
 .speaker-sn img {
   display: flex;
+  width: 100%;
 }
 .speaker-data {
   display: flex;
