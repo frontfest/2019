@@ -607,8 +607,36 @@ hr {
   padding: 0 8px;
 }
 .bg-dark {
-  background: rgb(245, 182, 63, 0.5);
+  background: rgb(245, 182, 63, 0.2);
 }
 .no-border {
   border: 0 !important;
+}
+
+/* Individual */
+
+.main-individual {
+  display: flex;
+}
+.main-individual > .left {
+  width: 60%;
+  padding: 60px;
+}
+.main-individual > .right {
+  width: 40%;
+  padding: 60px;
+  background-color: #fed;
+}
+.speaker-photo {
+  width: 200px;
+}
+.speaker-individual {
+  margin: 0;
+  text-transform: uppercase;
+}
+.flex {
+  display: flex;
+}
+.speaker-g {
+  padding: 0 30px;
 }
