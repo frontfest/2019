@@ -561,7 +561,7 @@ hr {
   margin: 10px 20px 10px 0;
 }
 .sponsor-platinum img {
-  margin: 12%;
+  width: 80%;
 }
 .sponsor-gold {
   background: white;
@@ -575,7 +575,10 @@ hr {
   margin: 10px 20px 10px 0;
 }
 .sponsor-gold img {
-  margin: 15%;
+  width: 80%;
+}
+.sponsor-gold .width-60 {
+  width: 60%;
 }
 .sponsor-silver {
   background: white;
@@ -589,7 +592,7 @@ hr {
   margin: 10px 20px 10px 0;
 }
 .sponsor-silver img {
-  margin: 15%;
+  width: 80%;
 }
 .sponsor-inkind {
   background: white;
@@ -603,7 +606,7 @@ hr {
   margin: 10px 20px 10px 0;
 }
 .sponsor-inkind img {
-  margin: 10%;
+  width: 80%;
 }
 
 /* Main list */
