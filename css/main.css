@@ -546,11 +546,12 @@ hr {
 /* Schedule */
 
 .talk-separator {
+  border-top: 3px solid #222;
   display: flex;
   background-color: #F5B63F;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .talk-separator-title {
   font-weight: bold;
@@ -559,7 +560,7 @@ hr {
   margin-left: 10px;
 }
 .talk-row {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   border-top: 3px solid #222;
 }
 .talk-time {
@@ -575,21 +576,28 @@ hr {
 .talk-time div {
   border: 2px solid #222;
   padding: 6px 12px;
-  font-weight: bold;
   font-size: 14px;
 }
-.talk-author {
-  text-transform: uppercase;
+.talk-list {
+  padding-left: 15px;
   font-size: 14px;
+  margin: 8px 0;
+}
+.talk-list li {
+  margin: 4px 0;
+  padding: 0;
+}
+.talk-author {
   display: flex;
   justify-content: flex-start;
-  font-weight: bold;
   align-items: center;
 }
 .talk-author img {
-  height: 34px;
+  height: 40px;
 }
 .talk-author div {
+  text-transform: uppercase;
+  font-size: 14px;
   font-weight: bold;
   padding: 6px 12px;
 }
