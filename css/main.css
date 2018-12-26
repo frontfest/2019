@@ -543,6 +543,60 @@ hr {
   }
 }
 
+/* Schedule */
+
+.talk-separator {
+  display: flex;
+  background-color: #F5B63F;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.talk-separator-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.talk-row {
+  margin-bottom: 40px;
+  border-top: 3px solid #222;
+}
+.talk-time {
+  display: flex;
+}
+.talk-time span {
+  background-color: #222;
+  color: #dedede;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.talk-time div {
+  border: 2px solid #222;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.talk-author {
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  align-items: center;
+}
+.talk-author img {
+  height: 34px;
+}
+.talk-author div {
+  font-weight: bold;
+  padding: 6px 12px;
+}
+.talk-desc {
+  font-size: 14px;
+}
+
 /* Sponsors */
 
 .sponsor-row {
