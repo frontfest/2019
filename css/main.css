@@ -396,11 +396,11 @@ hr {
   display: flex;
 }
 .speaker-sn a {
-  width: 32px;
   display: flex;
 }
 .speaker-sn a img {
-  width: 100%;
+  width: 32px;
+  height: 32px;
 }
 .speaker-desc {
   font-size: 13px;
