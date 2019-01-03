@@ -131,28 +131,11 @@ hr {
   align-items: center;
   transition: 0.2s;
 }
-/* .btn:hover {
-  background-color: rgb(255, 204, 108);
-}
-.btn::after {
-  background: url('../images/arrow-point-to-right.svg') no-repeat center center;
-  width: 10px;
-  height: 15px;
-  background-size: 10px 15px;
-  content: '';
-  margin-left: 8px;
-} */
 .btn.disabled {
   background: transparent;
   border: 1px solid #222;
   cursor: not-allowed;
 }
-/* .btn.disabled::after {
-  background: none;
-  width: 0;
-  height: 0;
-  margin-left: 0;
-} */
 
 /* Aside */
 
@@ -403,7 +386,7 @@ hr {
   height: 32px;
 }
 .speaker-desc {
-  font-size: 13px;
+  font-size: 14px;
   padding: 20px;
 }
 @media (min-width: 632px) {
@@ -535,7 +518,7 @@ hr {
 }
 .talk-list {
   padding-left: 15px;
-  font-size: 14px;
+  font-size: 15px;
   margin: 8px 0;
 }
 .talk-list li {
@@ -557,7 +540,7 @@ hr {
   padding: 6px 12px;
 }
 .talk-desc {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Sponsors */
