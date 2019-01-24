@@ -600,6 +600,9 @@ hr {
 .sponsor-silver img {
   width: 80%;
 }
+.sponsor-silver .width-60 {
+  width: 60%;
+}
 .sponsor-inkind {
   background: white;
   width: 200px;
