@@ -282,13 +282,13 @@ hr {
 .section {
   padding: 60px 25px;
 }
-.section a,
-.section a:visited {
+
+.section a:not(.image-link) {
   text-decoration: none;
   color: #bd7b00;
   border-bottom: 2px solid rgba(189, 123, 0, 0.3);
 }
-.section a:hover {
+.section a:hover:not(.image-link) {
   border-bottom: 2px solid rgba(189, 123, 0, 0.8);
 }
 @media (min-width: 768px) {
@@ -300,6 +300,10 @@ hr {
   .section {
     padding: 60px 80px;
   }
+}
+
+.image-link {
+  display: flex;
 }
 
 /* Intro */
